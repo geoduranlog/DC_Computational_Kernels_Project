@@ -5,7 +5,7 @@ as in the paper of A.Duran et al. (2020).
 The simulations were run using a large media (33.6km x33.6km) and 20 Vmodels.
 
 # FOLDERS AND THEIR CONTENTS #
-## DCnum:## 
+## DCnum:
 •	Contain samples of the output data (only for the first model) after the SPECFEM2D simulations (For Sim1 and Sim2).  
 •	Here you find the codes used to compute the ensemble average intensities and the numerical Kernels.
 •	It contains the result of such operations: Mean_Intensities_20Models.mat   and Kernels_20Models.mat
