@@ -11,7 +11,7 @@ The simulations were run using a large media (33.6km x33.6km) and 20 Vmodels.
 •	It contains the result of such operations: Mean_Intensities_20Models.mat   and Kernels_20Models.mat
 
 
-# DCexp: #
+# DCexp: 
 Evaluates the decorrelation among waveforms before and after a localized vel anomaly is placed. The results here are always for a dv/v=+7% single point velocity anomaly.  Always performed using x-displacement as my recordings. 
  
 •	Code used to compute the ‘experimental’ decorrelations.
@@ -21,7 +21,7 @@ The DCexp outputs are computed and saved.
 
  
  
-#DCplot_LargeMed:
+# DCplot_LargeMed:
 Here are the codes used to plot the results.
 
 A1_DC_plot_Components.m ->  Given at specific rprime location (rp=3, 8 or 9), it computes DCbullk and loads the results of DCnum and DCexp.  
@@ -44,7 +44,7 @@ A2_DC_plots_LargeMed.m ->   This is the code which load all the information, mak
 
 
 
-#Some words about the errors:
+# Some words about the errors:
 
 From a Normal distribution (random variable), it is easier to take the error by studying mean and the std (avg distance from the values xi to the mean). Error is an indication of the level of confidence with the data, it is in a way an indication how spread the data is.
 In various cases, the data is assumed to satisfy a normal distribution, like in T-student. 
@@ -52,7 +52,5 @@ However, after plotting in the past the histograms of DCexp(r,to) for various sa
   
 When the distribution is not normal the interpretation of what standard deviation tells about the data is not clear. In such case, we could use non parametric approaches, in which there is no assumption about the type of distribution the data would fit in.
 
-IQR is one of them.  And it is the one I’m using for DCexp.  However, I also observed that I found a better fit by simply using the mean over all the models as my result (i.e.  DCexp=mean(DCexp)_models)  instead of using the median (DCexp).
-
-In other words:  mean(DCexp) fits better the DCbulk   than  median(DCexp). 
+IQR is one of them and it was used in this study.
 
