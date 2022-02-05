@@ -2,7 +2,10 @@
 
 Here you find the codes used to compute numerical and experimental decorrelations and generate the DC figures,
 as in the paper of A.Duran et al. (2020). 
-The simulations were run using a large media (33.6km x33.6km) and 20 Vmodels.
+The simulations were run using a large media (33.6km x33.6km) and 20 highly heterogenous velocity models.
+
+For details, check https://doi.org/10.1093/gji/ggaa357
+
 
 # FOLDERS AND THEIR CONTENTS #
 ## DCnum:
