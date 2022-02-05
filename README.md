@@ -4,17 +4,15 @@ Here you find the codes used to compute numerical and experimental decorrelation
 as in the paper of A.Duran et al. (2020). 
 The simulations were run using a large media (33.6km x33.6km) and 20 Vmodels.
 
-FOLDERS AND THEIR CONTENTS
-DCnum: 
+#FOLDERS AND THEIR CONTENTS
+#DCnum: 
 •	Contain samples of the output data (only for the first model) after the SPECFEM2D simulations (For Sim1 and Sim2).  
 •	Here you find the codes used to compute the ensemble average intensities and the numerical Kernels.
 •	It contains the result of such operations: Mean_Intensities_20Models.mat   and Kernels_20Models.mat
 
 
 
-
-
-DCexp:
+#DCexp:
 Evaluates the decorrelation among waveforms before and after a localized vel anomaly is placed. The results here are always for a dv/v=+7% single point velocity anomaly.  Always performed using x-displacement as my recordings. 
  
 •	Code used to compute the ‘experimental’ decorrelations.
@@ -24,7 +22,7 @@ The DCexp outputs are computed and saved.
 
  
  
-DCplot_LargeMed:
+#DCplot_LargeMed:
 Here are the codes used to plot the results.
 
 A1_DC_plot_Components.m ->  Given at specific rprime location (rp=3, 8 or 9), it computes DCbullk and loads the results of DCnum and DCexp.  
@@ -47,7 +45,7 @@ A2_DC_plots_LargeMed.m ->   This is the code which load all the information, mak
 
 
 
-Some words about the errors:
+#Some words about the errors:
 
 From a Normal distribution (random variable), it is easier to take the error by studying mean and the std (avg distance from the values xi to the mean). Error is an indication of the level of confidence with the data, it is in a way an indication how spread the data is.
 In various cases, the data is assumed to satisfy a normal distribution, like in T-student. 
