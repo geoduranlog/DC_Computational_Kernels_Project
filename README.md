@@ -51,7 +51,7 @@ A2_DC_plots_LargeMed.m ->   This is the code which load all the information, mak
 
 From a Normal distribution (random variable), it is easier to take the error by studying mean and the std (avg distance from the values xi to the mean). Error is an indication of the level of confidence with the data, it is in a way an indication how spread the data is.
 In various cases, the data is assumed to satisfy a normal distribution, like in T-student. 
-However, after plotting in the past the histograms of DCexp(r,to) for various sample times, I couldn’t tell if the distribution is normal. To me it seems to vary even between time steps, perhaps is a bimodal distribution or simply no normal.
+However, after plotting in the past the histograms of DCexp(r,to) for various sample times, I couldn’t tell if the distribution is normal. In fact, it varies even between time steps, probably it is a bimodal distribution or simply no normal.
   
 When the distribution is not normal the interpretation of what standard deviation tells about the data is not clear. In such case, we could use non parametric approaches, in which there is no assumption about the type of distribution the data would fit in.
 
