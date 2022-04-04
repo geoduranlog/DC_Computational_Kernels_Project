@@ -1,4 +1,4 @@
-# DC_Kernels_Project
+# DC_Computational_Kernels_Project
 
 Here you find the codes used to compute numerical and experimental decorrelations and generate the DC figures,
 as in the paper of A.Duran et al. (2020). 
